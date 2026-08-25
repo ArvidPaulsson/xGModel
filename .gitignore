@@ -1,0 +1,33 @@
+# Ignore everything by default; only the baseline notebook is relevant.
+*
+!.gitignore
+!logistic_regression_baseline.ipynb
+
+# OS
+.DS_Store
+.DS_STORE
+
+# Python / virtualenv
+env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+understats/
+exports/
+figures/
+content/
+*.html
+
+# Unrelated notebooks / scripts
+exploration.ipynb
+extract_cells.py
+generate_plots.py
+load_understat_dataset.py
